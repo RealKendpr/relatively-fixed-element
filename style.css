@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main-container {
+  height: 100svh;
+  height: 100vh;
+  width: 60%;
+  margin-inline: auto;
+  background: #7bebbb;
+}
+.social-icons {
+  list-style: none;
+  display: grid;
+  gap: 1px;
+
+  top: 50%;
+  transform: translateY(-50%);
+
+  position: fixed; /*A must*/
+}
+.social-icons li {
+  height: 32px;
+  width: 32px;
+}
+.blue {
+  background: blue;
+}
+.red {
+  background: rgb(249, 79, 79);
+}
+.black {
+  background: black;
+}
+.content {
+  padding: 12px;
+}
+
+.just-for-scroll {
+  min-height: 100svh;
+  height: 100vh;
+  width: 60%;
+  margin-inline: auto;
+  background: #ebe77b;
+}
+.just-for-scroll > p {
+  padding: 24px;
+}
